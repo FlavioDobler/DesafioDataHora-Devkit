@@ -7,7 +7,7 @@ func checkTime(_ data : Date) {
     let hour = calendar.component(.hour, from: date)
     
     switch hour {
-    case 0..<12 :
+    case 6..<12 :
         print ("Bom dia!!")
     case 12..<18 :
         print ("Boa tade!!")
